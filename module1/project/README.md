@@ -93,7 +93,7 @@ python nombre_del_archivo.py
 
 ---
 
-[![Ver video](https://img.youtube.com/vi/zO1RTINVpyE/maxresdefault.jpg)](https://youtu.be/ZhSxhd9RJIE)
+[![Ver video](https://img.youtube.com/vi/ZhSxhd9RJIE/maxresdefault.jpg)](https://youtu.be/ZhSxhd9RJIE)
 
 ---
 
