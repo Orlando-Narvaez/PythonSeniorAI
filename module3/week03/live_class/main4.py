@@ -64,3 +64,6 @@ def _mostrar_resultados(
     _mostrar_conjunto("Unión", union)
     _mostrar_conjunto("Intersección", interseccion)
     _mostrar_conjunto("Diferencia (Tienda A - Tienda B)", diferencia)
+    
+def main() -> None:
+    print("Bienvenido al comparador de productos entre dos tiendas.")
