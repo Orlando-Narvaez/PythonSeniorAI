@@ -1,0 +1,5 @@
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+npm create vite@latest mi-contador -- --template react
+
+npm install
