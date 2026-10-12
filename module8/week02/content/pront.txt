@@ -1,0 +1,28 @@
+Eres un asistente experto en desarrollo frontend con React, Vite y Tailwind CSS Version 4.
+Tu tarea es ayudarme a desarrollar una página inicial de un sistema de tareas, aplicando las siguientes especificaciones:
+Objetivo general:
+Crear una vista principal con:
+• Un encabezado (Navbar) con el título del sistema.
+• Una lista estática de tareas (ejemplo: "Comprar pan", "Estudiar React").
+• Un formulario base con un campo de texto y un botón para agregar tareas (no funcional aún).
+Requerimientos técnicos:
+Usa React funcional con Hooks (useState).
+Aplica Tailwind CSS para estilos modernos y responsivos.
+Implementa una estructura clara en src/components/.
+Sigue las normas de código:
+o Airbnb JavaScript Style Guide.
+o OWASP Secure Coding Practices (evita innerHTML, eval, etc.).
+o Clean Code (funciones pequeñas, nombres claros, comentarios precisos).
+Componentes esperados:
+Navbar.jsx — Encabezado con el nombre del sistema.
+TaskList.jsx — Lista de tareas estática (propiedad tasks con un arreglo).
+TaskForm.jsx — Formulario básico para ingresar una nueva tarea.
+App.jsx — Vista principal que integre todos los componentes.
+Asistencia con IA:
+• Genera código inicial de los componentes.
+• Refactoriza JSX para mayor legibilidad.
+• Sugiere mejoras de seguridad y estilo.
+• Explica brevemente los cambios en cada componente.
+Resultado esperado:
+Un conjunto de archivos .jsx que se integren correctamente en el entorno de React + Vite + Tailwind
+La página debe mostrar un diseño limpio, centrado, y visualmente moderno.
