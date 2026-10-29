@@ -5,35 +5,31 @@ function TaskList({ tasks }) {
 
   return (
     <section
-      className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm"
+      className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6"
       aria-labelledby="task-list-heading"
     >
       <h2
         id="task-list-heading"
-        className="mb-4 text-sm font-medium uppercase tracking-wide text-slate-500"
+        className="text-base font-semibold text-slate-900 sm:text-lg"
       >
         Tareas pendientes
       </h2>
 
-      {!hasTasks && (
-        <p className="text-center text-slate-500">No hay tareas por ahora.</p>
-      )}
-
-      {hasTasks && (
-        <ul className="space-y-2" role="list">
+      {hasTasks ? (
+        <ul className="mt-4 space-y-2">
           {tasks.map((task) => (
             <li
               key={task.id}
-              className="flex items-center gap-3 rounded-xl border border-slate-100 bg-slate-50/80 px-4 py-3 text-slate-800 transition-colors hover:border-indigo-100 hover:bg-indigo-50/40"
+              className="rounded-xl border border-slate-100 bg-slate-50 px-4 py-3 text-sm text-slate-700 sm:text-base"
             >
-              <span
-                className="size-2 shrink-0 rounded-full bg-indigo-500"
-                aria-hidden="true"
-              />
-              <span>{task.title}</span>
+              {task.title}
             </li>
           ))}
         </ul>
+      ) : (
+        <p className="mt-4 text-sm text-slate-500">
+          No hay tareas registradas.
+        </p>
       )}
     </section>
   );
@@ -42,7 +38,7 @@ function TaskList({ tasks }) {
 TaskList.propTypes = {
   tasks: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+      id: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
     }),
   ).isRequired,

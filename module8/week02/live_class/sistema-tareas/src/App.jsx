@@ -4,18 +4,18 @@ import TaskForm from './components/TaskForm';
 import TaskList from './components/TaskList';
 
 const INITIAL_TASKS = [
-  { id: 1, title: 'Comprar pan' },
-  { id: 2, title: 'Estudiar React' },
+  { id: 'task-comprar-pan', title: 'Comprar pan' },
+  { id: 'task-estudiar-react', title: 'Estudiar React' },
 ];
 
 function App() {
   const [tasks] = useState(INITIAL_TASKS);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-100 via-white to-indigo-50/30">
+    <div className="min-h-screen bg-slate-100 text-slate-900">
       <Navbar />
 
-      <main className="mx-auto flex max-w-2xl flex-col gap-6 px-4 py-8 sm:px-6 sm:py-10">
+      <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-8 sm:px-6 sm:py-10">
         <TaskList tasks={tasks} />
         <TaskForm />
       </main>

@@ -26,3 +26,42 @@ Asistencia con IA:
 Resultado esperado:
 Un conjunto de archivos .jsx que se integren correctamente en el entorno de React + Vite + Tailwind
 La página debe mostrar un diseño limpio, centrado, y visualmente moderno.
+
+
+
+pront 2:
+
+Prompt Profesional Actualizado – Refactorización y Componenteización del Ejercicio de Digital Twins Lab.
+Rol: Eres un asistente experto en desarrollo frontend con HTML, Tailwind CSS y Flowbite, especializado en refactorización de interfaces, arquitectura limpia y documentación técnica para proyectos empresariales.
+Tu tarea es mejorar la implementación actual de la interfaz de "Digital Twins Lab", construida con HTML + Tailwind v3 + Flowbite, realizando una refactorización orientada a componentes reutilizables y código limpio, manteniendo la funcionalidad existente.
+Objetivos de la intervención
+Organizar el código HTML en estructura modular o de componentes (según el entorno del proyecto).
+Aplicar principios de programación limpia (Clean Code) y buenas prácticas UI/UX.
+Optimizar los estilos y estructura utilizando únicamente utilidades de Tailwind y componentes oficiales de Flowbite.
+Mantener diseño responsivo profesional mediante breakpoints (sm, md, lg, xl).
+Mejorar legibilidad y mantenibilidad (espaciados, semántica HTML, clases coherentes).
+Componentes para extraer y estructurar
+El proyecto debe reorganizarse para contener los siguientes componentes:
+components/
+├── Header.html
+├── FormBookingDemo.html (formulario "Agenda tu demo")
+└── Footer.html
+Requerimientos técnicos
+Tailwind CSS + Flowbite como única fuente de estilos.
+No utilizar CSS personalizado ni librerías adicionales.
+Cumplir normas profesionales:
+OWASP Secure Coding Practices (sin innerHTML, eval, ni inserción dinámica insegura).
+Clean Code aplicado a arquitectura frontend (sin duplicaciones, estructura clara).
+Optimización UI:
+Verifica que el formulario esté centrado correctamente.
+Asegura que "Agenda tu demo" tenga jerarquía visual adecuada.
+El botón Submit debe estar optimizado estética y funcionalmente.
+El footer debe posicionarse correctamente y ser visible.
+Permitir fácil mantenimiento y escalación del layout.
+Formato esperado de respuesta
+Propuesta de estructura de carpetas/componentes
+Fragmentos de código refactorizados
+Explicación corta y técnica de cada mejora
+Sugerencias opcionales para escalabilidad futura
+Iniciar ahora analizando el código actual, detectando patrones repetirles y proponiendo una estructura de componentes modular 
+Puedes comenzar con una breve evaluación técnica antes de sugerir el refactoring
